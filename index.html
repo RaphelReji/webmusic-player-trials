@@ -32,6 +32,29 @@
      </div>
 
    </div>
+
+
+        <button class="side-open" onclick="openSidePanel()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+
+<aside class="side-panel" id="sidePanel">
+    <div class="side-panel-header">
+        <h2>Appearance</h2>
+
+        <button class="side-close" onclick="closeSidePanel()">
+            &times;
+        </button>
+    </div>
+
+</aside>
+
+
+<div class="side-overlay" id="sideOverlay" onclick="closeSidePanel()"></div>
+
     
     <script src="data.js"></script>
     <script src="app.js"></script>

@@ -95,3 +95,16 @@ backwardBtn.addEventListener('click',() =>{
     setMusic(currentMusic);
     playMusic();
 })
+
+const sidePanel = document.getElementById("sidePanel");
+const sideOverlay = document.getElementById("sideOverlay");
+
+function openSidePanel() {
+    sidePanel.classList.add("active");
+    sideOverlay.classList.add("active");
+}
+
+function closeSidePanel() {
+    sidePanel.classList.remove("active");
+    sideOverlay.classList.remove("active");
+}
