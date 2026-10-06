@@ -1,3 +1,13 @@
+:root{
+    --bg:#080808;
+    --musicplayer-bg:#080808;
+    --text-color:white;
+    --disk-center:white;
+    --seek-bar-bg:white;
+    --seek-bar-flow:rgba(243, 14, 14, 0.877);
+    --btn-bg:grey;
+    --btn-span:black;
+}
 *{
     margin: 0;
     padding: 0;
@@ -9,19 +19,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0d0f0e;
     font-family: sans-serif;
+    background-color:var(--bg);
 }
 .music-player{
     width: 350px;
     height: 550px;
     border-radius: 20px;
-    background: rgba(10, 105, 184, 0.08);
+    background: var(--musicplayer-bg);
     box-shadow: 0 40px 100px rgba(255, 255, 255, 0.1);
     padding: 30px;
     overflow: hidden;
-    color: #eaf0e3;
-
+    color: var(--text-color);
 }
 .music-name,
 .artist-name{
@@ -63,7 +72,7 @@ body{
      width: 30px;
      height: 30px;
      border-radius: 50%;
-     background-color: #bec9be;
+     background-color: var(--disk-center);
 }
 
 .song-slider{
@@ -76,7 +85,7 @@ body{
      width: 100%;
      height: 5px;
      border-radius: 10px;
-     background: #0777f7;
+     background: var(--seek-bar-bg);
      overflow: hidden;
      cursor: pointer; 
 }
@@ -85,7 +94,7 @@ body{
     width: 1px;
     height: 20px;
     background: #000 ;
-    box-shadow: -400px 0 0 400px #d5eebb;
+    box-shadow: -400px 0 0 400px var(--seek-bar-flow);
 }
 .current-time,
 .song-duration{
@@ -108,7 +117,7 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #d5eebb;
+    background: var(--btn-bg);
     cursor: pointer;
     border: none;
 }
@@ -120,7 +129,7 @@ body{
     width: 10px;
     height: 30px;
     border-radius: 2px;
-    background: #5f7a61;
+    background: var(--btn-span);
     transition: 0.5s;
     clip-path: polygon(0 0,100% 0 100% 100%,0% 100%);
 }
@@ -160,7 +169,7 @@ body{
 .btn{
     width: 40px;
     height: 40px;
-    background: #d5eebb ;
+    background:var(--btn-bg) ;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -185,7 +194,7 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #d5eebb;
+    background-color: #080808;
     cursor: pointer;
     border: none;
     transition: 0.3S;
@@ -201,7 +210,7 @@ body{
     width: 30px;
     height: 8px;
     border-radius: 2px;
-    background: #5f7a61;
+    background: var(--text-color);
     transition: 0.5s;
     clip-path: polygon(0 0,100% 0 100% 100%,0% 100%);
 }
@@ -219,7 +228,7 @@ body{
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #300483;
+    background-color:var(--bg);
     width: 350px;
     max-width: 85vw;
     height: 100vh;
@@ -239,7 +248,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+     color: var(--text-color);
     padding: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
