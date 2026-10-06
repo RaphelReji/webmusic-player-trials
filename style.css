@@ -32,6 +32,8 @@ body{
     padding: 30px;
     overflow: hidden;
     color: var(--text-color);
+    background-position: center;
+    background-size: cover;
 }
 .music-name,
 .artist-name{
@@ -384,4 +386,44 @@ body{
     color: var(--btn-span);
     padding: 10px 20px;
     border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#sign-out-btn:hover{
+    padding: 10px 40px;
+    transform:scale(1.03);
+}
+#version-text{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#cool-btn{
+    margin: 20px auto;
+    width: max-content;
+    background-color: var(--btn-bg);
+    color: var(--btn-span);
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#cool-btn:hover{
+    border-radius: 20px;
+    transform:scale(1.03) rotate(360deg);
+}
+#login-yet-window{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--seek-bar-flow);
+    margin: 20px auto;
+    width: max-content;
+    font-family: 'Courier New', Courier, monospace;
+}
+#login-close{
+    float: right;
+    background: transparent;
+    color: var(--text-color);
 }
