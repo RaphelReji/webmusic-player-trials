@@ -108,3 +108,17 @@ function closeSidePanel() {
     sidePanel.classList.remove("active");
     sideOverlay.classList.remove("active");
 }
+
+
+const root=document.documentElement;
+
+document.querySelector("#white-theme-btn").onclick=()=>{
+    root.style.setProperty("--bg","white")
+    root.style.setProperty("--text-color","black")
+    root.style.setProperty("--seek-bar-bg","black")
+    root.style.setProperty("--musicplayer-bg","#f1ddc3")
+    root.style.setProperty("--disk-center","red")
+    root.style.setProperty("--seek-bar-flow","#f3d2aa")
+    root.style.setProperty("--btn-bg","red")
+    root.style.setProperty("--btn-span","#f3d2aa")
+}
