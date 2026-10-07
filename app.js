@@ -122,3 +122,37 @@ document.querySelector("#white-theme-btn").onclick=()=>{
     root.style.setProperty("--btn-bg","red")
     root.style.setProperty("--btn-span","#f3d2aa")
 }
+
+const addMonkeyBtn=document.getElementById("add-monkey-btn");
+const monkeyBtn=document.getElementById("dancing-monkey-btn")
+const monkey=document.getElementById("headphonemonkey");
+monkeyBtn.addEventListener("click",function()
+{
+    if (monkey.style.display==="none"){
+        monkey.style.display="block";
+        addMonkeyBtn.textContent="remove";
+    }
+
+    else{
+        monkey.style.display="none";
+        addMonkeyBtn.textContent="add";
+    }
+}
+);
+
+const addDiscoBtn=document.getElementById("add-disco-btn");
+const discoBtn=document.getElementById("dancing-disco-btn")
+const disco=document.getElementById("partylight-gif");
+discoBtn.addEventListener("click",function()
+{
+    if (disco.style.display==="none"){
+        disco.style.display="block";
+        addDiscoBtn.textContent="remove";
+    }
+
+    else{
+        disco.style.display="none";
+        addDiscoBtn.textContent="add";
+    }
+}
+);
