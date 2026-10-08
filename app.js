@@ -156,3 +156,37 @@ discoBtn.addEventListener("click",function()
     }
 }
 );
+
+const addLightBtn=document.getElementById("add-light-btn");
+const lightBtn=document.getElementById("dancing-light-btn")
+const light=document.getElementById("light-gif");
+lightBtn.addEventListener("click",function()
+{
+    if (light.style.display==="none"){
+        light.style.display="block";
+        addLightBtn.textContent="remove";
+    }
+
+    else{
+        light.style.display="none";
+        addLightBtn.textContent="add";
+    }
+}
+);
+
+const addNotesBtn=document.getElementById("add-notes-btn");
+const notesBtn=document.getElementById("dancing-notes-btn")
+const notes=document.getElementById("music-notes");
+notesBtn.addEventListener("click",function()
+{
+    if (notes.style.display==="none"){
+        notes.style.display="block";
+        addNotesBtn.textContent="remove";
+    }
+
+    else{
+        notes.style.display="none";
+        addNotesBtn.textContent="add";
+    }
+}
+);
