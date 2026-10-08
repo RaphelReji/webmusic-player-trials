@@ -116,11 +116,67 @@ document.querySelector("#white-theme-btn").onclick=()=>{
     root.style.setProperty("--bg","white")
     root.style.setProperty("--text-color","black")
     root.style.setProperty("--seek-bar-bg","black")
-    root.style.setProperty("--musicplayer-bg","#f1ddc3")
+    root.style.setProperty("--musicplayer-bg","#e9dbca")
     root.style.setProperty("--disk-center","red")
-    root.style.setProperty("--seek-bar-flow","#f3d2aa")
-    root.style.setProperty("--btn-bg","red")
+    root.style.setProperty("--seek-bar-flow","#b5b7b9")
+    root.style.setProperty("--btn-bg","#a89e9e")
     root.style.setProperty("--btn-span","#f3d2aa")
+}
+
+document.querySelector("#black-theme-btn").onclick=()=>{
+    root.style.setProperty("--bg","#080808")
+    root.style.setProperty("--text-color","white")
+    root.style.setProperty("--seek-bar-bg","black")
+    root.style.setProperty("--musicplayer-bg","#080808")
+    root.style.setProperty("--disk-center","white")
+    root.style.setProperty("--seek-bar-flow","#e0c3c3")
+    root.style.setProperty("--btn-bg","#fff8f8")
+    root.style.setProperty("--btn-span","black")
+}
+
+
+document.querySelector("#blue-theme-btn").onclick=()=>{
+    root.style.setProperty("--bg","#0a1d50")
+    root.style.setProperty("--text-color","black")
+    root.style.setProperty("--seek-bar-bg","#705454")
+    root.style.setProperty("--musicplayer-bg","#1578b9")
+    root.style.setProperty("--disk-center","#93bad4")
+    root.style.setProperty("--seek-bar-flow","#162b3a")
+    root.style.setProperty("--btn-bg","#1460ee")
+    root.style.setProperty("--btn-span","white")
+}
+
+document.querySelector("#red-theme-btn").onclick=()=>{
+    root.style.setProperty("--bg","#f85555")
+    root.style.setProperty("--text-color","black")
+    root.style.setProperty("--seek-bar-bg","#705454")
+    root.style.setProperty("--musicplayer-bg","#9e3434")
+    root.style.setProperty("--disk-center","#f70707")
+    root.style.setProperty("--seek-bar-flow","#162b3a")
+    root.style.setProperty("--btn-bg","#ecaaaa")
+    root.style.setProperty("--btn-span","white")
+}
+
+document.querySelector("#green-theme-btn").onclick=()=>{
+    root.style.setProperty("--bg","#429160")
+    root.style.setProperty("--text-color","black")
+    root.style.setProperty("--seek-bar-bg","#154e0de0")
+    root.style.setProperty("--musicplayer-bg","#539c5f")
+    root.style.setProperty("--disk-center","#3da557")
+    root.style.setProperty("--seek-bar-flow","#162b3a")
+    root.style.setProperty("--btn-bg","#75d369")
+    root.style.setProperty("--btn-span","white")
+}
+
+document.querySelector("#yellow-theme-btn").onclick=()=>{
+    root.style.setProperty("--bg","#d3f033")
+    root.style.setProperty("--text-color","black")
+    root.style.setProperty("--seek-bar-bg","#ec9f0ee0")
+    root.style.setProperty("--musicplayer-bg","#d5e261")
+    root.style.setProperty("--disk-center","#cbec0f")
+    root.style.setProperty("--seek-bar-flow","#d1dabb")
+    root.style.setProperty("--btn-bg","#f3ef08")
+    root.style.setProperty("--btn-span","black")
 }
 
 const addMonkeyBtn=document.getElementById("add-monkey-btn");
@@ -239,3 +295,9 @@ signOut.addEventListener("click",function(){
 signOutMsgCut.addEventListener("click",function(){
     signOutMsg.style.display="none";
 })
+
+const musicPlayer =document.getElementById("music-player");
+const coolBtn=document.getElementById("cool-btn");
+coolBtn.addEventListener("click",function(){
+musicPlayer.style.backgroundImage="url(images/bggif.gif)"
+});

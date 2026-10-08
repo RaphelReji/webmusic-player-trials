@@ -3,9 +3,9 @@
     --musicplayer-bg:#080808;
     --text-color:white;
     --disk-center:white;
-    --seek-bar-bg:rgb(224, 195, 195);
+    --seek-bar-bg:#e0c3c3;
     --seek-bar-flow:rgba(243, 14, 14, 0.877);
-    --btn-bg:rgb(255, 248, 248);
+    --btn-bg:#fff8f8;
     --btn-span:black;
 }
 *{
@@ -215,7 +215,7 @@ body{
     width: 30px;
     height: 8px;
     border-radius: 2px;
-    background: var(--text-color);
+    background: var(--disk-center);
     transition: 0.5s;
     clip-path: polygon(0 0,100% 0 100% 100%,0% 100%);
 }
