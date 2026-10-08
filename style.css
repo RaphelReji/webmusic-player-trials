@@ -425,6 +425,7 @@ hr{
     margin: 20px auto;
     width: max-content;
     font-family: 'Courier New', Courier, monospace;
+    display: none;
 }
 #login-close{
     float: right;
@@ -474,20 +475,25 @@ hr{
     background-color: #072a6b81;
     border-radius: 20px;
     transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #appearance-select-stngs:hover{
-      box-shadow: 0 0 5px #09399181;
+    background-color: rgba(7, 42, 107, 0.692);
+       transform: scale(1.03);
 }
 #appearance-select-wids{
     padding: 10px 20px;
     background-color: rgba(7, 42, 107, 0.507);
     border-radius: 20px;
     transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #appearance-select-wids:hover{
-      box-shadow: 0 0 5px #09399181;
+       background-color: rgba(7, 42, 107, 0.692);
+       transform: scale(1.03);
 }
-#Settings-main{
+
+#widgets-main{
     display: none;
 }
 .widgets-grid{

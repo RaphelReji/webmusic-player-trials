@@ -190,3 +190,52 @@ notesBtn.addEventListener("click",function()
     }
 }
 );
+
+const widgetsMain=document.getElementById("widgets-main");
+const settingsMain=document.getElementById("Settings-main");
+const settingsBtn=document.getElementById("appearance-select-stngs");
+const widgetBtn=document.getElementById("appearance-select-wids");
+settingsBtn.addEventListener("click",function(){
+    settingsMain.style.display="block";
+    widgetsMain.style.display="none";
+});
+widgetBtn.addEventListener("click",function(){
+    widgetsMain.style.display="block";
+    settingsMain.style.display="none";
+});
+
+const body=document.getElementById("body");
+const pixelBg=document.getElementById("pixel-bg");
+const carBg=document.getElementById("car-bg");
+const jungleBg=document.getElementById("jungle-bg");
+const nightBg=document.getElementById("night-bg");
+
+pixelBg.addEventListener("click",function(){
+body.style.backgroundImage="url(images/bluepixel.png)";
+});
+
+carBg.addEventListener("click",function(){
+body.style.backgroundImage="url(images/car.png)";
+});
+
+jungleBg.addEventListener("click",function(){
+body.style.backgroundImage="url(images/jungle.jpg)";
+});
+
+nightBg.addEventListener("click",function(){
+body.style.backgroundImage="url(images/night.jpg)";
+});
+
+const signOutMsgCut=document.getElementById("login-close");
+const signOutMsg=document.getElementById("login-yet-window")
+const signOut=document.getElementById("sign-out-btn");
+signOut.addEventListener("click",function(){
+    setTimeout(() => {
+        signOut.style.display="none";
+        signOutMsg.style.display="block";
+    }, 1000);
+
+});
+signOutMsgCut.addEventListener("click",function(){
+    signOutMsg.style.display="none";
+})
