@@ -296,8 +296,10 @@ signOutMsgCut.addEventListener("click",function(){
     signOutMsg.style.display="none";
 })
 
-const musicPlayer =document.getElementById("music-player");
+const musicPlayer=document.getElementById("music-player");
 const coolBtn=document.getElementById("cool-btn");
 coolBtn.addEventListener("click",function(){
-musicPlayer.style.backgroundImage="url(images/bggif.gif)"
+musicPlayer.style.backgroundImage="url(images/bggif.gif)";
+body.style.backgroundImage="url(images/dance.gif)"
+
 });
