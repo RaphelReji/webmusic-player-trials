@@ -1,22 +1,20 @@
-# webmusic-player-trials
 
 <a id="readme-top"></a>
 
 <!-- HEADER -->
 <br />
 <div align="center">
-	<h1 align="center">Music player</h1>
+	<h1 align="center">Jukebox player</h1>
 	<p align="center">
-		Introducing MeowPath,a website for beginners to help to find the tutorials for software and also in hardware.
+		Introducing Musicplayer,a website for crazy music lovers to chill out in the music and feel amazed by the settings 
 		<br />
-		You can find different tutorials in this!
-		<br />
+		You can play cool music in this!
 		<br />
 	</p>
     <br>
-    <p>
-    Hi i created this because when i was new to coding i  don't know where 
-    </p>
+    <h4>
+    Hi i created this  because i want to study more about javascript and web developing so cool.
+    </h4>
 </div>
 
 <!-- CONTENTS -->
@@ -49,19 +47,20 @@
 ## About The Project
 <br />
 
-![home page](assets/images/home.png)
+![home page](readme/home.png)
+![home page](readme/settings.png)
 
 
-This website will help you to find tutorials
+This website will cill out you in boring days
 <br />
 Here's why:
-* Selected with views,comments etc...
+* don't ask questions just try it...
 
 
 <p align="right">(<a href="#readme-top">top</a>)</p>
 
 ### Built Using
-I used the HTML,CSS and little bit of js for only the filter! happy to use these three as i know something<br />
+I used the HTML,CSS and js! happy to use these three as i know something<br />
 * HTML
 * CSS
 * JAVASCRIPT
@@ -70,7 +69,7 @@ I used the HTML,CSS and little bit of js for only the filter! happy to use these
 
 <!-- GETTING STARTED -->
 ## Getting Started
-How to download and edit this ? It's easy!
+How to download and play this ? It's easy!
 
 ### Installation
  you can manually install it, here's how to do it!
@@ -93,8 +92,8 @@ How to download and edit this ? It's easy!
 
 ## Research/inspiration
 
-* Reddit suggestions
-*  from youtube
+* Thanks to youtube tutorial that helped me in the building of the base of this link-
+
 <!-- LICENSE -->
 ## License
 
