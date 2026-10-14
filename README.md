@@ -20,19 +20,12 @@
 <!-- CONTENTS -->
 
 <details>
-
     <summary>Table of Contents</summary>
         <li><a href="#about">About The Project</a></li>
-
         <li><a href="#built-with">Built Using</a></li>
-
         <li><a href="#getting-started">Getting Started</a></li>
-
         <li><a href="#credits">Credits</a></li>
-
         <li><a href="#license">License</a></li>
-
-    </ol>
 
 </details>
 
@@ -93,11 +86,18 @@ How to download and play this ? It's easy!
 
 ## Credits
  - icons:Taken from icon8 [Open icon8](https://icons8.com/)
- - used pixbay for some gifs! 
+ - used pixabay for images
+- musics
+
+ <img src="readme/c1.png" style="width:300px;"/>
+ <img src="readme/c2.png" style="width:300px;"/>
+ <img src="readme/c3.png" style="width:300px;"/>
+ <img src="readme/c4.png" style="width:300px;"/>
+ <img src="readme/c5.png" style="width:300px;"/>
 
 ## Research/inspiration
 
-* Thanks to the YouTube tutorial [link](https://youtu.be/Zf_psaJ-wP4?si=CQaxvl83zoJDqgVY) that helped me understand web development and build the base of this project!
+* Thanks to the YouTube tutorial [link](https://youtu.be/Zf_psaJ-wP4?si=CQaxvl83zoJDqgVY) that helped me understand web design and build the base of this project!
 
 <!-- LICENSE -->
 ## License
