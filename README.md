@@ -6,35 +6,34 @@
 <div align="center">
 	<h1 align="center">Jukebox player</h1>
 	<p align="center">
-		Introducing Musicplayer,a website for crazy music lovers to chill out in the music and feel amazed by the settings 
+		Introducing Jukebox Player, a website for crazy music lovers to chill out, enjoy music, and feel amazed by the settings.
 		<br />
-		You can play cool music in this!
+		   You can play cool music here!
 		<br />
 	</p>
     <br>
-    <h4>
-    Hi i created this  because i want to study more about javascript and web developing so cool.
-    </h4>
+    <p>
+    Hi, I created this because I wanted to learn more about JavaScript and web development while building something cool and fun to use.
+    </p>
 </div>
 
 <!-- CONTENTS -->
+
 <details>
-	<summary>Table of Contents</summary>
-	<ol>
-		<li>
-			<a href="#about">About The Project</a>
-			<ul>
-				<li><a href="#built-with">Built Using</a></li>
-			</ul>
-		</li>
-		<li>
-			<a href="#getting-started">Getting Started</a>
-			<ul>
-				<li><a href="#installation">Installation</a></li>
-			</ul>
-		</li>
-		<li><a href="#license">License</a></li>
-	</ol>
+
+    <summary>Table of Contents</summary>
+        <li><a href="#about">About The Project</a></li>
+
+        <li><a href="#built-with">Built Using</a></li>
+
+        <li><a href="#getting-started">Getting Started</a></li>
+
+        <li><a href="#credits">Credits</a></li>
+
+        <li><a href="#license">License</a></li>
+
+    </ol>
+
 </details>
 
 
@@ -51,10 +50,17 @@
 ![home page](readme/settings.png)
 
 
-This website will cill out you in boring days
-<br />
+This website is made for music lovers who want to chill out and enjoy music.
+
 Here's why:
-* don't ask questions just try it...
+
+* A fun website for enjoying music.
+
+* Settings to customize the experience.
+
+* A music-focused interface.
+
+* Built while learning JavaScript and web development.
 
 
 <p align="right">(<a href="#readme-top">top</a>)</p>
@@ -86,13 +92,12 @@ How to download and play this ? It's easy!
 
 
 ## Credits
-![credit](assets/images/artibute.png)
  - icons:Taken from icon8 [Open icon8](https://icons8.com/)
-
+ - used pixbay for some gifs! 
 
 ## Research/inspiration
 
-* Thanks to youtube tutorial that helped me in the building of the base of this link-
+* Thanks to the YouTube tutorial [link](https://youtu.be/Zf_psaJ-wP4?si=CQaxvl83zoJDqgVY) that helped me understand web development and build the base of this project!
 
 <!-- LICENSE -->
 ## License
