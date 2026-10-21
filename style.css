@@ -39,6 +39,7 @@ body{
 }
 .music-name,
 .artist-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     text-transform: capitalize;
 }
