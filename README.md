@@ -32,7 +32,7 @@
 
 ## Live Demo
 
-[Open the live website](https://raphelreji.github.io/MeowPath/)
+[Open the live website](https://raphelreji.github.io/webmusic-player-trials/)
 
 
 <!-- ABOUT -->
@@ -74,7 +74,7 @@ How to download and play this ? It's easy!
  you can manually install it, here's how to do it!
 1. Clone the repository
 	```sh
-	git clone https://github.com/RaphelReji/MeowPath.git
+	git clone https://github.com/RaphelReji/webmusic-player-trials.git
 	```
 2. Open the project folder in VS Code or any code editor.
 
