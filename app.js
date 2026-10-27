@@ -35,27 +35,30 @@ const setMusic= (i)=>{
     disk.style.backgroundImage=`url('${song.cover}')`;
 
     currentTime.innerHTML='00:00';
-    setTimeout(()=>{
-        seekBar.max=music.duration;
-        musicDuration.innerHTML=formatTime(music.duration);
-    },300);
+   music.addEventListener('loadedmetadata', () => {
+    seekBar.max = music.duration;
+    musicDuration.innerHTML = formatTime(music.duration);
+}, { once: true });
+
+   music.load();
 }
 
 setMusic(0);
 
 //time in min sec formating
-const formatTime=(time)=>{
-    let min=Math.floor(time/60);
-    if(min<10){
-        min=`0${min}`;
+const formatTime = (time) => {
+    if (!Number.isFinite(time) || time < 0) {
+        return "00:00";
     }
-    let sec=Math.floor(time % 60);
-    if(sec<10){
-        sec=`0${sec}`;
-    } 
-     return `${min} :${sec}`;
-}
 
+    let min = Math.floor(time / 60);
+    let sec = Math.floor(time % 60);
+
+    if (min < 10) min = `0${min}`;
+    if (sec < 10) sec = `0${sec}`;
+
+    return `${min}:${sec}`;
+};
 //bar
 setInterval(()=>{
     seekBar.value=music.currentTime;
@@ -77,7 +80,7 @@ const playMusic = ()=>{
 //front and back
 
 forwardBtn.addEventListener('click',() =>{
-    if(currentTime >= songs.length - 1){
+    if(currentMusic >= songs.length - 1){
         currentMusic=0;
     }else{
         currentMusic++;
@@ -87,7 +90,7 @@ forwardBtn.addEventListener('click',() =>{
 })
 
 backwardBtn.addEventListener('click',() =>{
-    if(currentTime <= 0){
+    if(currentMusic <= 0){
         currentMusic  = songs.length - 1;
     }else{
         currentMusic--;
